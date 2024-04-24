@@ -1,0 +1,115 @@
+@media screen and (max-width: 985px) {
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 130px;
+  }
+}
+@media screen and (max-width: 850px) {
+  header nav .nav-list .nav-list_content .content__btn {
+    display: block;
+  }
+  header nav .nav-list ul {
+    display: none;
+  }
+  .basket-smooth .basket-elements {
+    top: 95px;
+    right: 8px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 0;
+    margin-bottom: 50px;
+  }
+  header {
+    padding-bottom: 25px;
+  }
+  header nav .nav-list .nav-list_content {
+    gap: 16px;
+  }
+  header nav .nav-shopping_infos {
+    gap: var(--gap-item-el-24);
+  }
+  header nav .nav-shopping_infos .basket-elements {
+    top: 70px;
+    right: -20px;
+  }
+  header nav .nav-shopping_infos .infos__btn .btn-account {
+    width: 25px;
+  }
+  header hr {
+    display: none;
+  }
+  main {
+    margin-top: 80px;
+  }
+  main .section_products .section-main_list .main-picture {
+    width: 100%;
+    border-radius: 0;
+  }
+  main .section_products .section-main_list .list__change {
+    display: flex;
+  }
+  main .section_products .section-list_menu {
+    display: none;
+  }
+  main .section-purchase {
+    padding: 0 24px;
+    gap: 15px;
+  }
+  main .section-purchase .purchase-text {
+    gap: 19px;
+  }
+  main .section-purchase .purchase-text h3 {
+    font-size: 12px;
+    line-height: 14.88px;
+    letter-spacing: 1.8461538553px;
+  }
+  main .section-purchase .purchase-text h1 {
+    width: 100%;
+    max-width: 327px;
+    font-size: 28px;
+    line-height: 32px;
+  }
+  main .section-purchase .purchase-info {
+    gap: var(--gap-item-el-24);
+  }
+  main .section-purchase .purchase-info p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  main .section-purchase .purchase-info .purchase {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 10px;
+  }
+  main .section-purchase .numberOfProducts {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: var(--gap-15);
+  }
+  main .section-purchase .numberOfProducts .quantity {
+    width: 100%;
+  }
+  main .section-purchase .numberOfProducts .numberOfProducts__btn {
+    width: 100%;
+  }
+  .modal {
+    display: none;
+  }
+}
+@media screen and (width > 850px) {
+  .modal_menu {
+    display: none;
+  }
+}/*# sourceMappingURL=media.css.map */

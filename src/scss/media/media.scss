@@ -1,0 +1,146 @@
+@media screen and (max-width: 985px) {
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 130px;
+  }
+}
+@media screen and (max-width: 850px) {
+  header {
+    nav {
+      .nav-list {
+        .nav-list_content {
+          .content__btn {
+            display: block;
+          }
+        }
+        ul {
+          display: none;
+        }
+      }
+    }
+  }
+  .basket-smooth {
+  .basket-elements {
+    top: 95px;
+    right: 8px;
+  }
+}
+}
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 0;
+    margin-bottom: 50px;
+  }
+  // ! Header
+  header {
+    padding-bottom: 25px;
+    nav {
+      .nav-list {
+        .nav-list_content {
+          gap: 16px;
+        }
+      }
+      // ? Container Header Navbar nav-shopping_infos
+      .nav-shopping_infos {
+        gap: var(--gap-item-el-24);
+        .basket-elements{
+          top: 70px;
+          right: -20px;
+        }
+        .infos__btn {
+          .btn-account {
+            width: 25px;
+          }
+        }
+      }
+    }
+    // * Container Header Hr Tags
+    hr {
+      display: none;
+    }
+  }
+
+  // ! Main
+  main {
+    margin-top: 80px;
+
+    .section_products {
+      .section-main_list {
+        .main-picture {
+          width: 100%;
+          border-radius: 0;
+        }
+        .list__change {
+          display: flex;
+        }
+      }
+
+      .section-list_menu {
+        display: none;
+      }
+    }
+
+    .section-purchase {
+      padding: 0 24px;
+      gap: 15px;
+      .purchase-text {
+        gap: 19px;
+        h3 {
+          font-size: 12px;
+          line-height: 14.88px;
+          letter-spacing: 1.8461538553237915px;
+        }
+        h1 {
+          width: 100%;
+          max-width: 327px;
+          font-size: 28px;
+          line-height: 32px;
+        }
+      }
+
+      .purchase-info {
+        gap: var(--gap-item-el-24);
+        p {
+          font-size: 15px;
+          font-weight: 400;
+          line-height: 25px;
+        }
+
+        .purchase {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          flex-direction: row;
+          gap: 10px;
+        }
+      }
+
+      .numberOfProducts {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: var(--gap-15);
+        .quantity {
+          width: 100%;
+        }
+        .numberOfProducts__btn {
+          width: 100%;
+        }
+      }
+    }
+  }
+  .modal {
+    display: none;
+  }
+}
+@media screen and (width > 850px) {
+  .modal_menu {
+    display: none;
+  }
+}
